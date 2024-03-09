@@ -76,7 +76,7 @@ const Carousel: React.FC<CarouselProps> = ({ cards, setCards }) => {
                 width: "10px",
                 margin: "5px",
                 backgroundColor:
-                  currentImageIndex === index ? "#01D167" : "gray",
+                  currentImageIndex === index ? "#01D167" : "#DDFFEC",
                 borderRadius: "50%",
                 display: "inline-block",
                 cursor: "pointer",
