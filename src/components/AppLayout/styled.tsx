@@ -6,4 +6,5 @@ export const AppLayoutContainer = styled.div`
 
 export const ChildContainer = styled.div`
   padding: 40px;
+  flex-grow: 1;
 `;

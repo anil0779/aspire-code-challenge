@@ -42,4 +42,8 @@ export const StyledLink = styled(NavLink)`
   &.active {
     color: #01d167;
   }
+
+  &:hover {
+    opacity: 80%;
+  }
 `;
