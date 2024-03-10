@@ -6,7 +6,7 @@ import BodyComponent from "./BodyComponent";
 import Accordion from "./../../components/Accordian";
 import Carousel from "./CardsCarousel";
 import AddCard from "./AddCard";
-import TransactionsList from "./TRansactions";
+import TransactionsList from "./Transactions";
 
 import { getCardsApi, addCardApi } from "./../../api";
 
