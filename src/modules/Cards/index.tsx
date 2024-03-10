@@ -1,16 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import Tabs from "./../../components/Tabs";
 import HeaderComponent from "./Header";
 import BodyComponent from "./BodyComponent";
 import Accordion from "./../../components/Accordian";
 import Carousel from "./CardsCarousel";
+import AddCard from "./AddCard";
 
-import { TAB_LIST, INITIAL_CARDS } from "./../../constants";
+import { getCardsApi, addCardApi } from "./../../api";
+
+import { TAB_LIST } from "./../../constants";
 
 import { StyledMyDebitCards } from "./styled";
 
-interface Cards {
+interface CardsProps {
   url?: string;
   id?: string | number;
   name?: string;
@@ -29,12 +32,35 @@ interface Cards {
 
 const Cards: React.FC = () => {
   const [activeTab, setActiveTab] = useState(TAB_LIST[0].id);
+  const [showAddCardForm, setShowAddCardForm] = useState(false);
 
-  const [cardsState, setCardsState] = useState<Cards[]>(INITIAL_CARDS);
+  const [cardsState, setCardsState] = useState<CardsProps[]>([]);
+
+  const onClickAddNew = () => {
+    setShowAddCardForm(true);
+  };
+
+  const handleSubmit = (payload: any) => {
+    addCardApi(payload).then(() => {
+      fetchList();
+      setShowAddCardForm(false);
+    });
+  };
+
+  const fetchList = () =>
+    getCardsApi().then((resp) => {
+      if (resp?.length > 0) {
+        setCardsState(resp);
+      }
+    });
+
+  useEffect(() => {
+    fetchList();
+  }, []);
 
   return (
     <div>
-      <HeaderComponent />
+      <HeaderComponent onClickAddNew={onClickAddNew} />
       <Tabs tabs={TAB_LIST} active={activeTab} setActive={setActiveTab} />
       <BodyComponent>
         {activeTab === TAB_LIST[0].id && (
@@ -52,6 +78,12 @@ const Cards: React.FC = () => {
         )}
         {activeTab === TAB_LIST[1].id && "All Company card"}
       </BodyComponent>
+      {showAddCardForm && (
+        <AddCard
+          onSubmit={handleSubmit}
+          onClose={() => setShowAddCardForm(false)}
+        />
+      )}
     </div>
   );
 };

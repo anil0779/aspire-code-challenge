@@ -4,7 +4,11 @@ import AddIcon from "./../../icons/add.svg";
 
 import { StyledHeaderComponent } from "./styled";
 
-const Header: React.FC = () => {
+interface HeaderProps {
+  onClickAddNew: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ onClickAddNew }) => {
   return (
     <StyledHeaderComponent>
       <div className="available-balance">
@@ -15,7 +19,7 @@ const Header: React.FC = () => {
         </div>
       </div>
       <div>
-        <button className="add-new-btn">
+        <button className="add-new-btn" onClick={onClickAddNew}>
           <img src={AddIcon} alt="add new" />
           <span>New Card</span>
         </button>

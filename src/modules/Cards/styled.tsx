@@ -169,3 +169,10 @@ export const CarouselContainer = styled.div`
   flex-direction: column;
   gap: 24px;
 `;
+
+export const TitleModal = styled.div`
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+`;
