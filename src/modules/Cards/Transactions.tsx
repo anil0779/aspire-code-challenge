@@ -52,7 +52,9 @@ const Transaction: React.FC<TransactionProps> = ({
       <div style={{ flexGrow: 1 }}>
         <strong style={{ fontWeight: "bold" }}>{name}</strong>
         <br />
-        <div style={{ color: "#AAAAAA" }}> {date}</div>
+        <div style={{ color: "#AAAAAA", position: "relative", top: "4px" }}>
+          {date}
+        </div>
         <br />
         <div
           className="flex"
