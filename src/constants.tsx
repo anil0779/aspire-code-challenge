@@ -118,3 +118,46 @@ export const MOCK_CARD_CREATION_DATA = [
     unMaskedNumber: "0002 2233 3212 4211",
   },
 ];
+
+export const SAMPLE_TRANSACTION = [
+  {
+    name: "Anil Kumar",
+    date: "20 May 2022",
+    type: "DEBIT",
+    amount: "S$ 13,000",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=54386ecf-df26-4b6a-afb8-7a5bb2d493e0&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
+    bgColor: "#009DFF1A",
+  },
+  {
+    name: "Poly Molly ",
+    date: "12 Jun 2023",
+    type: "CREDIT",
+    amount: "S$ 13,000",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=54386ecf-df26-4b6a-afb8-7a5bb2d493e0&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
+    bgColor: "#F251951A",
+  },
+  {
+    name: "Hola Sandy",
+    date: "20 May 2023",
+    type: "DEBIT",
+    amount: "S$ 13,000",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=2504873f-7146-4cf2-924c-ded2d6669cb5&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
+    bgColor: "#009DFF1A",
+  },
+  {
+    name: "Karan Singh",
+    date: "20 May 2023",
+    type: "CREDIT",
+    amount: "S$ 13,000",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=54386ecf-df26-4b6a-afb8-7a5bb2d493e0&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
+    bgColor: "#EDFFF5",
+  },
+  {
+    name: "Monu Singa",
+    date: "20 May 2022",
+    type: "DEBIT",
+    amount: "S$ 13,000",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=2504873f-7146-4cf2-924c-ded2d6669cb5&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
+    bgColor: "#009DFF1A",
+  },
+];

@@ -1,6 +1,7 @@
 import { MOCK_CARD_CREATION_DATA } from "./constants";
 
 export const getCardsApi = () => {
+  // TODO: error handling
   return new Promise((resolve, reject) => {
     const mockData = JSON.parse(localStorage.getItem("mockData"));
     resolve(mockData);
@@ -18,11 +19,7 @@ export const addCardApi = ({ name }) => {
     ...randomCardDetails,
   };
 
-  console.log({
-    cardData,
-    randomCardDetails,
-    randomIndex,
-  });
+  // TODO: error handling
   localStorage.setItem(
     "mockData",
     JSON.stringify([

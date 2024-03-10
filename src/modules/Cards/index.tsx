@@ -6,10 +6,11 @@ import BodyComponent from "./BodyComponent";
 import Accordion from "./../../components/Accordian";
 import Carousel from "./CardsCarousel";
 import AddCard from "./AddCard";
+import TransactionsList from "./TRansactions";
 
 import { getCardsApi, addCardApi } from "./../../api";
 
-import { TAB_LIST } from "./../../constants";
+import { SAMPLE_TRANSACTION, TAB_LIST } from "./../../constants";
 
 import { StyledMyDebitCards } from "./styled";
 
@@ -71,7 +72,7 @@ const Cards: React.FC = () => {
             <div className="flex flex-column gap-6">
               <Accordion title="Card Details">Card Details</Accordion>
               <Accordion title="Recent Transactions" isOpenDefaultState={true}>
-                Recent Transactions
+                <TransactionsList transactions={SAMPLE_TRANSACTION} />
               </Accordion>
             </div>
           </StyledMyDebitCards>
