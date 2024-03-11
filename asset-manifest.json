@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aspire-code-challenge/static/css/main.b529935a.css",
+    "main.css": "/aspire-code-challenge/static/css/main.3009fdd5.css",
     "main.js": "/aspire-code-challenge/static/js/main.571d1224.js",
     "static/js/453.7e593b54.chunk.js": "/aspire-code-challenge/static/js/453.7e593b54.chunk.js",
     "static/media/AspireMainLogo.svg": "/aspire-code-challenge/static/media/AspireMainLogo.1e9edfc1a2e929d7b76286f4d4bf051f.svg",
@@ -17,12 +17,12 @@
     "static/media/Deactivate card.svg": "/aspire-code-challenge/static/media/Deactivate card.cdcc853057ffd1bf5d8eed5dfb006742.svg",
     "static/media/down-arrow.svg": "/aspire-code-challenge/static/media/down-arrow.158a1744d113c3be1bf9d6b7f07f2396.svg",
     "static/media/add.svg": "/aspire-code-challenge/static/media/add.fb692bc7f36b628c0113c07265d894cb.svg",
-    "main.b529935a.css.map": "/aspire-code-challenge/static/css/main.b529935a.css.map",
+    "main.3009fdd5.css.map": "/aspire-code-challenge/static/css/main.3009fdd5.css.map",
     "main.571d1224.js.map": "/aspire-code-challenge/static/js/main.571d1224.js.map",
     "453.7e593b54.chunk.js.map": "/aspire-code-challenge/static/js/453.7e593b54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b529935a.css",
+    "static/css/main.3009fdd5.css",
     "static/js/main.571d1224.js"
   ]
 }
