@@ -1,5 +1,10 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 
 import AppLayout from "./components/AppLayout";
 import Home from "./modules/Home";
@@ -25,12 +30,25 @@ const App: React.FC = () => {
     <Router>
       <AppLayout>
         <Routes>
-          <Route path={"/"} element={<Home />} />
-          <Route path={"/home"} element={<Home />} />
-          <Route path={"/cards"} element={<Cards />} />
-          <Route path={"/payments"} element={<Payments />} />
-          <Route path={"/credit"} element={<Credit />} />
-          <Route path={"/settings"} element={<Settings />} />
+          <Route
+            path={"/"}
+            element={<Navigate to="/aspire-code-challenge/cards" replace />}
+          />
+          <Route
+            path={"/aspire-code-challenge"}
+            element={<Navigate to="/aspire-code-challenge/cards" replace />}
+          />
+          <Route path={"/aspire-code-challenge/home"} element={<Home />} />
+          <Route path={"/aspire-code-challenge/cards"} element={<Cards />} />
+          <Route
+            path={"/aspire-code-challenge/payments"}
+            element={<Payments />}
+          />
+          <Route path={"/aspire-code-challenge/credit"} element={<Credit />} />
+          <Route
+            path={"/aspire-code-challenge/settings"}
+            element={<Settings />}
+          />
         </Routes>
       </AppLayout>
     </Router>

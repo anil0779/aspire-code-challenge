@@ -16,23 +16,23 @@ const SideBar: React.FC = () => {
       <p>Trusted way of banking for 3,000+ SMEs and startups in Singapore</p>
       <nav>
         <List>
-          <Link to="/">
+          <Link to="/aspire-code-challenge/home">
             <HomeIcon />
             <div>Home</div>
           </Link>
-          <Link to="/cards">
+          <Link to="/aspire-code-challenge/cards">
             <CardIcon />
             <div>Cards</div>
           </Link>
-          <Link to="/payments">
+          <Link to="/aspire-code-challenge/payments">
             <PaymentIcon />
             <div>Payments</div>
           </Link>
-          <Link to="/credit">
+          <Link to="/aspire-code-challenge/credit">
             <CreditIcon />
             <div>Credit</div>
           </Link>
-          <Link to="/settings">
+          <Link to="/aspire-code-challenge/settings">
             <SettingsIcon />
             <div>Settings</div>
           </Link>
