@@ -74,7 +74,7 @@ const Transaction: React.FC<TransactionProps> = ({
             <img
               style={{ position: "relative", left: "7px" }}
               src={
-                "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=0aa84279-ccf0-40c9-bf1d-d415d5a12d1a&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55"
+                "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=d4e76f57-9f96-41dd-9f29-60cb5bdef718&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b"
               }
               alt="transaction-type"
             />
