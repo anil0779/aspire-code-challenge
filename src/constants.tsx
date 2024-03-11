@@ -27,7 +27,7 @@ export const INITIAL_CARDS = [
       "https://upload.wikimedia.org/wikipedia/commons/2/28/HDFC_Bank_Logo.svg",
     type: "VISA",
     typeLogo:
-      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710003816_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_931775a6de535e2753811aad793ece803f7d5c81",
+      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     thru: "02/35",
     maskedCvv: "***",
     maskedNumber: "**** **** **** 2342",
@@ -125,15 +125,14 @@ export const SAMPLE_TRANSACTION = [
     date: "20 May 2022",
     type: "DEBIT",
     amount: "S$ 13,000",
-    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=54386ecf-df26-4b6a-afb8-7a5bb2d493e0&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
-    bgColor: "#009DFF1A",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=54386ecf-df26-4b6a-afb8-7a5bb2d493e0&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
   },
   {
     name: "Poly Molly ",
     date: "12 Jun 2023",
     type: "CREDIT",
     amount: "S$ 13,000",
-    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=54386ecf-df26-4b6a-afb8-7a5bb2d493e0&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=2504873f-7146-4cf2-924c-ded2d6669cb5&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     bgColor: "#F251951A",
   },
   {
@@ -141,7 +140,7 @@ export const SAMPLE_TRANSACTION = [
     date: "20 May 2023",
     type: "DEBIT",
     amount: "S$ 13,000",
-    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=2504873f-7146-4cf2-924c-ded2d6669cb5&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=54386ecf-df26-4b6a-afb8-7a5bb2d493e0&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     bgColor: "#009DFF1A",
   },
   {
@@ -149,7 +148,7 @@ export const SAMPLE_TRANSACTION = [
     date: "20 May 2023",
     type: "CREDIT",
     amount: "S$ 13,000",
-    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=54386ecf-df26-4b6a-afb8-7a5bb2d493e0&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=2504873f-7146-4cf2-924c-ded2d6669cb5&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     bgColor: "#EDFFF5",
   },
   {
@@ -157,7 +156,7 @@ export const SAMPLE_TRANSACTION = [
     date: "20 May 2022",
     type: "DEBIT",
     amount: "S$ 13,000",
-    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=2504873f-7146-4cf2-924c-ded2d6669cb5&api_key=CometServer1&access_token=1710100609_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_5e853745f32e361e89b1b74db37e7fdba22a2e55",
+    icon: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=54386ecf-df26-4b6a-afb8-7a5bb2d493e0&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     bgColor: "#009DFF1A",
   },
 ];
