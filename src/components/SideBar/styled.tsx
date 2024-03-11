@@ -8,6 +8,8 @@ export const SideBarContainer = styled.aside`
   overflow: auto;
   background-color: #0c365a;
   padding: 40px;
+  position: sticky;
+  top: 0;
 
   p {
     color: #fff;

@@ -38,7 +38,7 @@ const CreditCard: React.FC<CreditCardProps> = ({
           <img
             style={{ position: "relative", top: "3px", right: "3px" }}
             src={
-              "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=6155771f-c8c4-49df-aa0e-8a1c0821f142&api_key=CometServer1&access_token=1710003816_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_931775a6de535e2753811aad793ece803f7d5c81"
+              "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=6155771f-c8c4-49df-aa0e-8a1c0821f142&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b"
             }
             alt="show-hide"
           />
