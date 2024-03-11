@@ -108,4 +108,4 @@ The current folder structure of your project has several advantages:
 # Deployment
 
 - run `npm run deploy` from the root folder to update the app in github pages server
-- visit `https://anil0779.github.io/aspire-code-challenge` to see the app in action.
+- visit [https://anil0779.github.io/aspire-code-challenge](https://anil0779.github.io/aspire-code-challenge) to see the app in action.
