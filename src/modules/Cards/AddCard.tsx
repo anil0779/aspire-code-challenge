@@ -21,13 +21,26 @@ const AddCard: React.FC<AddCardProps> = ({ onSubmit, onClose }) => {
       <TitleModal className="title-modal">Add new Card</TitleModal>
       <div className="flex flex-column" style={{ gap: "4px" }}>
         <label
-          style={{ width: "100%", fontSize: "14px", fontWeight: "bold" }}
+          style={{
+            width: "100%",
+            fontSize: "14px",
+            fontWeight: "bold",
+            color: "rgb(12, 54, 90)",
+          }}
           htmlFor="cardName"
         >
-          Card name:
+          Card name*
         </label>
         <input
-          style={{ width: "100%", height: "32px" }}
+          style={{
+            width: "100%",
+            height: "40px",
+            borderRadius: "10px",
+            padding: "10px",
+            backgroundColor: "rgba(244, 246, 248, 0)",
+            border: "1px solid #AEBCC9",
+            fontSize: "1rem",
+          }}
           placeholder="Please enter name"
           type="text"
           id="cardName"
@@ -39,18 +52,21 @@ const AddCard: React.FC<AddCardProps> = ({ onSubmit, onClose }) => {
 
       <br />
       <br />
+      <br />
       <div className="center">
         <input
+          className="card-name-submit"
           style={{
             padding: "4px 8px",
-            borderRadius: "4px",
+            borderRadius: "24px",
             cursor: "pointer",
-            background: "#0c365a",
+            background: "#01D167",
             color: "#FFF",
             height: "40px",
-            width: "96px",
+            width: "100%",
             fontSize: "16px",
             fontWeight: "bold",
+            border: "none",
           }}
           type="button"
           value="Submit"

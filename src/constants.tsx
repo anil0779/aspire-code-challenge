@@ -58,7 +58,7 @@ export const MOCK_CARD_CREATION_DATA = [
       "https://upload.wikimedia.org/wikipedia/commons/2/28/HDFC_Bank_Logo.svg",
     type: "MasterCard",
     typeLogo:
-      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710003816_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_931775a6de535e2753811aad793ece803f7d5c81",
+      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     thru: "06/32",
     maskedCvv: "***",
     maskedNumber: "**** **** **** 3333",
@@ -71,7 +71,7 @@ export const MOCK_CARD_CREATION_DATA = [
       "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=8584ee76-6533-4a12-836f-44e095a92acf&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     type: "VISA",
     typeLogo:
-      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710003816_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_931775a6de535e2753811aad793ece803f7d5c81",
+      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     thru: "07/32",
     maskedCvv: "***",
     maskedNumber: "**** **** **** 1111",
@@ -84,7 +84,7 @@ export const MOCK_CARD_CREATION_DATA = [
       "https://upload.wikimedia.org/wikipedia/commons/2/28/HDFC_Bank_Logo.svg",
     type: "Master",
     typeLogo:
-      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=8584ee76-6533-4a12-836f-44e095a92acf&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
+      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     thru: "08/32",
     maskedCvv: "***",
     maskedNumber: "**** **** **** 6666",
@@ -97,7 +97,7 @@ export const MOCK_CARD_CREATION_DATA = [
       "https://upload.wikimedia.org/wikipedia/commons/2/28/HDFC_Bank_Logo.svg",
     type: "VISA",
     typeLogo:
-      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710003816_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_931775a6de535e2753811aad793ece803f7d5c81",
+      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     thru: "09/32",
     maskedCvv: "***",
     maskedNumber: "**** **** **** 1009",
@@ -111,7 +111,7 @@ export const MOCK_CARD_CREATION_DATA = [
     type: "VISA",
     thru: "10/32",
     typeLogo:
-      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710003816_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_931775a6de535e2753811aad793ece803f7d5c81",
+      "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:80c753f2-db2f-4dfc-b6c2-ce39a4c787f0;revision=0?component_id=99a641f4-0323-46a8-918e-3e232548ba51&api_key=CometServer1&access_token=1710175834_urn%3Aaaid%3Asc%3AUS%3A80c753f2-db2f-4dfc-b6c2-ce39a4c787f0%3Bpublic_034b26ae5c1ec5929fa0f790937bafb737687e0b",
     maskedCvv: "***",
     maskedNumber: "**** **** **** 1234",
     unMaskedCvv: "333",

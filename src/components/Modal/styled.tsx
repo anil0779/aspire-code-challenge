@@ -6,15 +6,16 @@ export const ModalContainer = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
 `;
 
 export const ModalBody = styled.div`
   position: relative;
-  margin: 50px auto;
-  padding: 40px;
-  max-width: 500px;
+  margin: 200px auto;
+  padding: 40px 30px;
+  max-width: 440px;
   background-color: #fff;
+  border-radius: 12px;
 
   .close {
     position: absolute;

@@ -40,3 +40,19 @@ code {
 button {
   cursor: pointer;
 }
+
+input:focus-visible,
+input:active {
+  outline: none;
+  border: none;
+}
+
+input:disabled {
+  cursor: not-allowed !important;
+  background-color: #cccccc !important;
+  color: #888888 !important;
+}
+
+.card-name-submit:hover {
+  opacity: 70%;
+}
