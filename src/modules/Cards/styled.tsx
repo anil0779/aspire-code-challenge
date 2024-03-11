@@ -176,4 +176,5 @@ export const TitleModal = styled.div`
   font-size: 22px;
   text-align: center;
   margin-bottom: 60px;
+  color: #0c365a;
 `;

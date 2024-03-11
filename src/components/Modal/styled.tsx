@@ -22,11 +22,12 @@ export const ModalBody = styled.div`
     right: 12px;
     top: 12px;
     cursor: pointer;
-    padding: 0 4px;
     border-radius: 50%;
-    border: transparent;
-    background: #0c365a;
+    border: none;
+    background: transparent;
+    font-size: 15px;
     color: white;
     font-size: 15px;
+    transform: rotate(45deg);
   }
 `;

@@ -18,7 +18,7 @@ const AddCard: React.FC<AddCardProps> = ({ onSubmit, onClose }) => {
 
   return (
     <Modal isOpen onClose={onClose}>
-      <TitleModal className="title-modal">Add new Card</TitleModal>
+      <TitleModal className="title-modal">Add new card</TitleModal>
       <div className="flex flex-column" style={{ gap: "4px" }}>
         <label
           style={{
