@@ -79,6 +79,7 @@ export const StyledAction = styled.div`
     cursor: pointer;
     border: none;
     background: transparent;
+    width: 67px;
   }
   button: disabled {
     cursor: not-allowed;
