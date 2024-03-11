@@ -26,17 +26,12 @@ Apart from developing the features, I have also paid attention to :-
 
 # Functional details (that I have implemented)
 
-[x] Created a simple single-page application as shown in the screenshot image
-
-[x] Created a navigation sidebar which has different options like Dashboard logo and links like Home, Cards etc.
-
-[x] Add new card using a modal form - generate random card number and details
-
-[x] Freeze/Unfreeze card - disable other actions on cards if the card is freezed
-
-[x] Made Cards as the default route
-
-[x] Created placeholder pages for other routes and a 404 page
+- Created a simple single-page application as shown in the screenshot image
+- Created a navigation sidebar which has different options like Dashboard logo and links like Home, Cards etc.
+- Add new card using a modal form - generate random card number and details
+- Freeze/Unfreeze card - disable other actions on cards if the card is freezed
+- Made Cards as the default route
+- Created placeholder pages for other routes and a 404 page
 
 # Non Functional specifications (that I have implemented)
 
@@ -71,11 +66,11 @@ The project has the following directory structure:
 
 The current folder structure of your project has several advantages:
 
-[x] Modularity: The codebase is divided into modules, components, and icons, which makes it easier to manage and understand the code. Each module or component has its own directory, which can contain its own scripts, styles, tests, and even sub-components.
+- Modularity: The codebase is divided into modules, components, and icons, which makes it easier to manage and understand the code. Each module or component has its own directory, which can contain its own scripts, styles, tests, and even sub-components.
 
-[x]Separation of Concerns: By separating the application into different folders based on their functionality, it’s easier to navigate through the project and locate specific files or code snippets.
+- Separation of Concerns: By separating the application into different folders based on their functionality, it’s easier to navigate through the project and locate specific files or code snippets.
 
-[x]Scalability: This structure is scalable for large projects. As your application grows, you can add more files and directories into the existing structure easily.
+- Scalability: This structure is scalable for large projects. As your application grows, you can add more files and directories into the existing structure easily.
 
 # Tech choices
 
