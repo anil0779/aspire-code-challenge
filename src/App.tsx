@@ -24,11 +24,11 @@ const App: React.FC = () => {
   // to have some initial cards on app load, add mock cards data to local storage
   useEffect(() => {
     setLoader(true);
-
     if (!localStorage.getItem("mockData")) {
       localStorage.setItem("mockData", JSON.stringify(INITIAL_CARDS));
     }
     setTimeout(() => {
+      // in case of 404 there is a lag in reading the mockData, so, explicitly adding 1 sec buffer.
       if (!localStorage.getItem("mockData")) {
         localStorage.setItem("mockData", JSON.stringify(INITIAL_CARDS));
       }
