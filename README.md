@@ -103,7 +103,7 @@ The current folder structure of your project has several advantages:
 - open a terminal & move to the root directory of the project
 - run `npm install`to install the deps
 - run `npm start` to start the server
-- visit `http://localhost:3000/` to see the app running
+- visit [http://localhost:3000](http://localhost:3000/) to see the app running
 
 # Deployment
 
