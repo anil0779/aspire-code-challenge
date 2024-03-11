@@ -13,6 +13,9 @@ For easy walkthrough, I will divide the points in these major categories.
 - Code Structure
 - Tech choices
 - Further Improvements which could be done later
+- Performance improvements
+- Getting Started
+- Deployment
 
 Apart from developing the features, I have also paid attention to :-
 
