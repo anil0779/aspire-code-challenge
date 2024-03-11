@@ -27,6 +27,8 @@ Apart from developing the features, I have also paid attention to :-
 - Performance improvements
 - Error handling
 
+<a name="functional-specifications"></a>
+
 # Functional details (that I have implemented)
 
 - Created a simple single-page application as shown in the screenshot image
