@@ -51,6 +51,7 @@ input:disabled {
   cursor: not-allowed !important;
   background-color: #cccccc !important;
   color: #888888 !important;
+  opacity: 1 !important;
 }
 
 .card-name-submit:hover {

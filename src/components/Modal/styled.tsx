@@ -23,5 +23,10 @@ export const ModalBody = styled.div`
     top: 12px;
     cursor: pointer;
     padding: 0 4px;
+    border-radius: 50%;
+    border: transparent;
+    background: #0c365a;
+    color: white;
+    font-size: 15px;
   }
 `;
