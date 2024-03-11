@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -18,13 +18,38 @@ import { INITIAL_CARDS } from "./constants";
 import "./App.css";
 
 const App: React.FC = () => {
+  const [loader, setLoader] = useState(false);
+
   // for mock purpose...
   // to have some initial cards on app load, add mock cards data to local storage
   useEffect(() => {
+    setLoader(true);
+
     if (!localStorage.getItem("mockData")) {
       localStorage.setItem("mockData", JSON.stringify(INITIAL_CARDS));
     }
+    setTimeout(() => {
+      if (!localStorage.getItem("mockData")) {
+        localStorage.setItem("mockData", JSON.stringify(INITIAL_CARDS));
+      }
+      setLoader(false);
+    }, 1000);
   }, []);
+
+  if (loader) {
+    return (
+      <div
+        style={{
+          position: "fixed",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+        }}
+      >
+        Loading… Please reload if you’re running out of patience!
+      </div>
+    );
+  }
 
   return (
     <Router>
