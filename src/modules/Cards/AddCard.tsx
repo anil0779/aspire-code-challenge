@@ -28,6 +28,7 @@ const AddCard: React.FC<AddCardProps> = ({ onSubmit, onClose }) => {
         </label>
         <input
           style={{ width: "100%", height: "32px" }}
+          placeholder="Please enter name"
           type="text"
           id="cardName"
           name="cardName"
