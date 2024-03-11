@@ -27,10 +27,15 @@ Apart from developing the features, I have also paid attention to :-
 # Functional details (that I have implemented)
 
 [x] Created a simple single-page application as shown in the screenshot image
+
 [x] Created a navigation sidebar which has different options like Dashboard logo and links like Home, Cards etc.
+
 [x] Add new card using a modal form - generate random card number and details
+
 [x] Freeze/Unfreeze card - disable other actions on cards if the card is freezed
+
 [x] Made Cards as the default route
+
 [x] Created placeholder pages for other routes and a 404 page
 
 # Non Functional specifications (that I have implemented)
